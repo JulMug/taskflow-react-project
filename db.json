@@ -1,170 +1,177 @@
 {
-    "utilisateurs": [
-        {
-            "id": 1,
-            "nom": "Julien Busiho",
-            "email": "julienbusiho00243@gmail.com",
-            "motDePasse": "Julien@4321"
-        }
-    ],
-    "projets": [
-        {
-            "id": 1,
-            "utilisateurId": 1,
-            "nom": "TaskFlow",
-            "description": "Développement d'une application de gestion de projets et de tâches en React.",
-            "couleur": "#2563EB",
-            "creeLe": "2026-09-01"
-        },
-        {
-            "id": 2,
-            "utilisateurId": 1,
-            "nom": "Portfolio personnel",
-            "description": "Création et amélioration de mon portfolio professionnel.",
-            "couleur": "#9333EA",
-            "creeLe": "2026-09-02"
-        },
-        {
-            "id": 3,
-            "utilisateurId": 1,
-            "nom": "Formation React",
-            "description": "Organisation des exercices et projets réalisés pendant la formation React.",
-            "couleur": "#16A34A",
-            "creeLe": "2026-09-03"
-        }
-    ],
-    "taches": [
-        {
-            "id": 1,
-            "projetId": 1,
-            "titre": "Configurer React Router",
-            "description": "Installer et configurer les différentes routes de l'application.",
-            "statut": "terminee",
-            "priorite": "haute",
-            "echeance": "2026-09-08",
-            "creeLe": "2026-09-01",
-            "modifieLe": "2026-09-04"
-        },
-        {
-            "id": 2,
-            "projetId": 1,
-            "titre": "Créer la page de connexion",
-            "description": "Développer le formulaire de connexion avec validation.",
-            "statut": "en_cours",
-            "priorite": "haute",
-            "echeance": "2026-09-09",
-            "creeLe": "2026-09-02",
-            "modifieLe": "2026-09-05"
-        },
-        {
-            "id": 3,
-            "projetId": 1,
-            "titre": "Créer le tableau de bord",
-            "description": "Afficher les statistiques principales des projets et des tâches.",
-            "statut": "a_faire",
-            "priorite": "moyenne",
-            "echeance": "2026-09-12",
-            "creeLe": "2026-09-03",
-            "modifieLe": "2026-09-03"
-        },
-        {
-            "id": 4,
-            "projetId": 1,
-            "titre": "Créer les filtres de tâches",
-            "description": "Permettre le filtrage des tâches par statut et priorité.",
-            "statut": "a_faire",
-            "priorite": "moyenne",
-            "echeance": "2026-09-13",
-            "creeLe": "2026-09-04",
-            "modifieLe": "2026-09-04"
-        },
-        {
-            "id": 5,
-            "projetId": 2,
-            "titre": "Définir la structure du portfolio",
-            "description": "Préparer les différentes sections du portfolio.",
-            "statut": "terminee",
-            "priorite": "haute",
-            "echeance": "2026-09-07",
-            "creeLe": "2026-09-01",
-            "modifieLe": "2026-09-04"
-        },
-        {
-            "id": 6,
-            "projetId": 2,
-            "titre": "Ajouter les projets réalisés",
-            "description": "Présenter les projets et réalisations professionnelles.",
-            "statut": "en_cours",
-            "priorite": "haute",
-            "echeance": "2026-09-10",
-            "creeLe": "2026-09-02",
-            "modifieLe": "2026-09-05"
-        },
-        {
-            "id": 7,
-            "projetId": 2,
-            "titre": "Optimiser le design responsive",
-            "description": "Adapter l'affichage du portfolio aux téléphones et tablettes.",
-            "statut": "a_faire",
-            "priorite": "moyenne",
-            "echeance": "2026-09-14",
-            "creeLe": "2026-09-03",
-            "modifieLe": "2026-09-03"
-        },
-        {
-            "id": 8,
-            "projetId": 2,
-            "titre": "Ajouter une page de contact",
-            "description": "Créer un formulaire permettant aux visiteurs de prendre contact.",
-            "statut": "a_faire",
-            "priorite": "basse",
-            "echeance": "2026-09-15",
-            "creeLe": "2026-09-04",
-            "modifieLe": "2026-09-04"
-        },
-        {
-            "id": 9,
-            "projetId": 3,
-            "titre": "Réviser les composants React",
-            "description": "Réviser les composants fonctionnels et les props.",
-            "statut": "terminee",
-            "priorite": "moyenne",
-            "echeance": "2026-09-06",
-            "creeLe": "2026-09-01",
-            "modifieLe": "2026-09-04"
-        },
-        {
-            "id": 10,
-            "projetId": 3,
-            "titre": "Pratiquer useState",
-            "description": "Créer des exercices utilisant la gestion d'état.",
-            "statut": "terminee",
-            "priorite": "haute",
-            "echeance": "2026-09-07",
-            "creeLe": "2026-09-02",
-            "modifieLe": "2026-09-04"
-        },
-        {
-            "id": 11,
-            "projetId": 3,
-            "titre": "Pratiquer useEffect",
-            "description": "Apprendre à charger et synchroniser des données avec une API.",
-            "statut": "en_cours",
-            "priorite": "haute",
-            "echeance": "2026-09-09",
-            "creeLe": "2026-09-03",
-            "modifieLe": "2026-09-05"
-        },
-        {
-            "id": 12,
-            "projetId": 3,
-            "titre": "Créer un hook personnalisé",
-            "description": "Développer un hook réutilisable pour charger les tâches.",
-            "statut": "a_faire",
-            "priorite": "moyenne",
-            "echeance": "2026-09-12",
-            "creeLe": "2026-09-04",
-            "modifieLe": "2026-09-04"
-        }
-    ]
+  "utilisateurs": [
+    {
+      "id": "1",
+      "nom": "Julien Busiho",
+      "email": "julienbusiho00243@gmail.com",
+      "motDePasse": "Julien@4321"
+    },
+    {
+      "nom": "Source De Vie",
+      "email": "eglisesourcedevie.ncm@gmail.com",
+      "motDePasse": "1234",
+      "id": "_UCUdMOZ0IQ"
+    }
+  ],
+  "projets": [
+    {
+      "id": "1",
+      "utilisateurId": 1,
+      "nom": "TaskFlow",
+      "description": "Développement d'une application de gestion de projets et de tâches en React.",
+      "couleur": "#2563EB",
+      "creeLe": "2026-09-01"
+    },
+    {
+      "id": "2",
+      "utilisateurId": 1,
+      "nom": "Portfolio personnel",
+      "description": "Création et amélioration de mon portfolio professionnel.",
+      "couleur": "#9333EA",
+      "creeLe": "2026-09-02"
+    },
+    {
+      "id": "3",
+      "utilisateurId": 1,
+      "nom": "Formation React",
+      "description": "Organisation des exercices et projets réalisés pendant la formation React.",
+      "couleur": "#16A34A",
+      "creeLe": "2026-09-03"
+    }
+  ],
+  "taches": [
+    {
+      "id": "1",
+      "projetId": 1,
+      "titre": "Configurer React Router",
+      "description": "Installer et configurer les différentes routes de l'application.",
+      "statut": "terminee",
+      "priorite": "haute",
+      "echeance": "2026-09-08",
+      "creeLe": "2026-09-01",
+      "modifieLe": "2026-09-04"
+    },
+    {
+      "id": "2",
+      "projetId": 1,
+      "titre": "Créer la page de connexion",
+      "description": "Développer le formulaire de connexion avec validation.",
+      "statut": "en_cours",
+      "priorite": "haute",
+      "echeance": "2026-09-09",
+      "creeLe": "2026-09-02",
+      "modifieLe": "2026-09-05"
+    },
+    {
+      "id": "3",
+      "projetId": 1,
+      "titre": "Créer le tableau de bord",
+      "description": "Afficher les statistiques principales des projets et des tâches.",
+      "statut": "a_faire",
+      "priorite": "moyenne",
+      "echeance": "2026-09-12",
+      "creeLe": "2026-09-03",
+      "modifieLe": "2026-09-03"
+    },
+    {
+      "id": "4",
+      "projetId": 1,
+      "titre": "Créer les filtres de tâches",
+      "description": "Permettre le filtrage des tâches par statut et priorité.",
+      "statut": "a_faire",
+      "priorite": "moyenne",
+      "echeance": "2026-09-13",
+      "creeLe": "2026-09-04",
+      "modifieLe": "2026-09-04"
+    },
+    {
+      "id": "5",
+      "projetId": 2,
+      "titre": "Définir la structure du portfolio",
+      "description": "Préparer les différentes sections du portfolio.",
+      "statut": "terminee",
+      "priorite": "haute",
+      "echeance": "2026-09-07",
+      "creeLe": "2026-09-01",
+      "modifieLe": "2026-09-04"
+    },
+    {
+      "id": "6",
+      "projetId": 2,
+      "titre": "Ajouter les projets réalisés",
+      "description": "Présenter les projets et réalisations professionnelles.",
+      "statut": "en_cours",
+      "priorite": "haute",
+      "echeance": "2026-09-10",
+      "creeLe": "2026-09-02",
+      "modifieLe": "2026-09-05"
+    },
+    {
+      "id": "7",
+      "projetId": 2,
+      "titre": "Optimiser le design responsive",
+      "description": "Adapter l'affichage du portfolio aux téléphones et tablettes.",
+      "statut": "a_faire",
+      "priorite": "moyenne",
+      "echeance": "2026-09-14",
+      "creeLe": "2026-09-03",
+      "modifieLe": "2026-09-03"
+    },
+    {
+      "id": "8",
+      "projetId": 2,
+      "titre": "Ajouter une page de contact",
+      "description": "Créer un formulaire permettant aux visiteurs de prendre contact.",
+      "statut": "a_faire",
+      "priorite": "basse",
+      "echeance": "2026-09-15",
+      "creeLe": "2026-09-04",
+      "modifieLe": "2026-09-04"
+    },
+    {
+      "id": "9",
+      "projetId": 3,
+      "titre": "Réviser les composants React",
+      "description": "Réviser les composants fonctionnels et les props.",
+      "statut": "terminee",
+      "priorite": "moyenne",
+      "echeance": "2026-09-06",
+      "creeLe": "2026-09-01",
+      "modifieLe": "2026-09-04"
+    },
+    {
+      "id": "10",
+      "projetId": 3,
+      "titre": "Pratiquer useState",
+      "description": "Créer des exercices utilisant la gestion d'état.",
+      "statut": "terminee",
+      "priorite": "haute",
+      "echeance": "2026-09-07",
+      "creeLe": "2026-09-02",
+      "modifieLe": "2026-09-04"
+    },
+    {
+      "id": "11",
+      "projetId": 3,
+      "titre": "Pratiquer useEffect",
+      "description": "Apprendre à charger et synchroniser des données avec une API.",
+      "statut": "en_cours",
+      "priorite": "haute",
+      "echeance": "2026-09-09",
+      "creeLe": "2026-09-03",
+      "modifieLe": "2026-09-05"
+    },
+    {
+      "id": "12",
+      "projetId": 3,
+      "titre": "Créer un hook personnalisé",
+      "description": "Développer un hook réutilisable pour charger les tâches.",
+      "statut": "a_faire",
+      "priorite": "moyenne",
+      "echeance": "2026-09-12",
+      "creeLe": "2026-09-04",
+      "modifieLe": "2026-09-04"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
