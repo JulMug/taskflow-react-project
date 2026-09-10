@@ -82,7 +82,6 @@ function LoginPage() {
       <section className="w-full lg:w-1/2 bg-slate-100 flex items-center justify-center px-6">
 
         <div className="w-full max-w-md">
-
           <h2 className="text-3xl font-bold text-slate-700">
             Connexion
           </h2>
