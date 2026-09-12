@@ -202,7 +202,7 @@ function DashboardPage() {
 
 
           <NavLink
-            to="/taches"
+            to="/tasks"
             className="rounded-lg px-4 py-3 text-slate-300 hover:bg-white/10 transition"
           >
             Toutes les tâches

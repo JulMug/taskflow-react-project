@@ -150,7 +150,7 @@ function RegisterPage() {
             <button
               type="submit"
               disabled={chargement}
-              className="btn btn-primary w-full"
+              className="btn w-full bg-teal-500"
             >
               {chargement ? "Création..." : "Créer mon compte"}
             </button>

@@ -17,6 +17,12 @@
       "email": "JosueNshombo@gmail.com",
       "motDePasse": "12345",
       "id": "78rVWoWgXeQ"
+    },
+    {
+      "nom": "Landry K",
+      "email": "landryK@gmail.com",
+      "motDePasse": "4321",
+      "id": "jTHuSemylnk"
     }
   ],
   "projets": [
@@ -43,6 +49,14 @@
       "description": "Organisation des exercices et projets réalisés pendant la formation React.",
       "couleur": "#16A34A",
       "creeLe": "2026-09-03"
+    },
+    {
+      "utilisateurId": "jTHuSemylnk",
+      "nom": "Faire les Exercices Next.js",
+      "description": "Lorem\nDéveloppement d'une application de gestion de projets et de tâches en React.",
+      "couleur": "#14b8a6",
+      "creeLe": "2026-09-12",
+      "id": "xCLz7WJKwJc"
     }
   ],
   "taches": [
